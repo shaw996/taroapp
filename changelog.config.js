@@ -1,5 +1,6 @@
 /* eslint-disable sort-keys-fix/sort-keys-fix */
 /* eslint-disable sort-keys */
+// eslint-disable-next-line import/no-commonjs
 module.exports = {
   disableEmoji: false,
   format: '{type}{scope}: {emoji}{subject}',

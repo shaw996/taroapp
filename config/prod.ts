@@ -1,6 +1,6 @@
-import type { UserConfigExport } from "@tarojs/cli";
+import type { UserConfigExport } from '@tarojs/cli';
+
 export default {
-  mini: {},
   h5: {
     /**
      * WebpackChain 插件配置
@@ -28,5 +28,6 @@ export default {
     //       postProcess: (context) => ({ ...context, outputPath: path.join(staticDir, 'index.html') })
     //     }))
     // }
-  }
-} satisfies UserConfigExport<'webpack5'>
+  },
+  mini: {},
+} satisfies UserConfigExport<'webpack5'>;
